@@ -79,4 +79,13 @@ const allMember=()=>{
 
 //buat logic Whatsappmu disini dengan fungsi yang tersedia
 //objek::user1
+console.log("User 1 Contact");
 console.log(user1.displayContactAll());
+
+//user2
+let user2 = Whatsapp([],[]);
+user2.addContact('Andhika','08211779293');
+user2.addContact('Agus','08233323823');
+user2.addContact('Andi','08952734341');
+console.log("User 2 Contact");
+console.log(user2.displayContactAll());
